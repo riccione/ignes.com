@@ -23,26 +23,31 @@ menu:
     - name: All Tools
       pageRef: /tools
       weight: 1
+
     - name: Categories
+      identifier: categories
       weight: 2
-      params:
-        type: dropdown
-      children:
-        - name: Images & Media
-          pageRef: /tools/images
-        - name: Utilities
-          pageRef: /tools/utilities
-        - name: Audio
-          pageRef: /tools/audio
-    - name: Replaces
+
+    - name: Images & Media
+      pageRef: /tools/images
+      parent: categories
+      weight: 1
+
+    - name: Utilities
+      pageRef: /tools/utilities
+      parent: categories
+      weight: 2
+
+    - name: Audio
+      pageRef: /tools/audio
+      parent: categories
       weight: 3
-      params:
-        type: dropdown
-      children: []
+
     - name: Search
       weight: 4
       params:
         type: search
+
     - name: GitHub
       weight: 5
       url: "https://github.com/riccione/ignes.com"
