@@ -1,0 +1,63 @@
+---
+baseURL: https://ignes.com/
+locale: en-us
+title: FOSS Debloat Directory
+theme: hextra
+
+taxonomies:
+  category: categories
+  tag: tags
+  replaces: replaces
+
+# Enable Hextra features
+markup:
+  goldmark:
+    renderer:
+      unsafe: true  # Allows HTML shortcodes like cards
+  highlight:
+    noClasses: false
+
+# Navigation Header Bar
+menu:
+  main:
+    - name: All Tools
+      pageRef: /tools
+      weight: 1
+    - name: Categories
+      weight: 2
+      params:
+        type: dropdown
+      children:
+        - name: Images & Media
+          pageRef: /tools/images
+        - name: Utilities
+          pageRef: /tools/utilities
+        - name: Audio
+          pageRef: /tools/audio
+    - name: Replaces
+      weight: 3
+      params:
+        type: dropdown
+      children: []
+    - name: Search
+      weight: 4
+      params:
+        type: search
+    - name: GitHub
+      weight: 5
+      url: "https://github.com/riccione/ignes.com"
+      params:
+        icon: github
+
+params:
+  description: Clean, privacy-first open source replacements for bloated software.
+  navbar:
+    displayTitle: true
+  footer:
+    displayCopyright: false
+    credits: "No tracking. No ads. Powered by Hugo & Hextra."
+  blog:
+    list:
+      displayTags: true
+  toc:
+    displayTags: true

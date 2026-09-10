@@ -1,0 +1,23 @@
+# Hugo build output
+public/
+resources/_gen/
+
+# Hugo build lock
+.hugo_build.lock
+
+# IDE / editor
+.vscode/
+*.swp
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Dependencies
+node_modules/
+
+# Migration source (keep directory, don't track in git)
+posts_from_static/
+migrate_posts.py
+__pycache__/
