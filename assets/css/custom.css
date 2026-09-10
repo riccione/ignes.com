@@ -4,3 +4,7 @@
   --hextra-max-navbar-width: 100%;
   --hextra-max-footer-width: 100%;
 }
+
+html {
+  font-size: 1.25rem; /* text-xl: 2 values up from text-base */
+}
