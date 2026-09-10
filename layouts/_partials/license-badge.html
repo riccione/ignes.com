@@ -1,0 +1,52 @@
+{{- /*
+  license-badge.html
+  Renders a license badge with automatic color mapping.
+
+  @param {string} license  The SPDX license identifier (e.g. "MIT", "Apache-2.0", "GPL-3.0")
+  @param {string} link     Optional URL for the license (e.g. link to full text)
+
+  @example {{ partial "license-badge.html" (dict "license" "MIT") }}
+  @example {{ partial "license-badge.html" (dict "license" "GPL-3.0" "link" "https://www.gnu.org/licenses/gpl-3.0.html") }}
+*/ -}}
+
+{{- $license := .license -}}
+{{- $link    := .link | default "" -}}
+
+{{- /* Color mapping */ -}}
+{{- $colorMap := dict
+  "MIT"          "green"
+  "ISC"          "green"
+  "BSD-2-Clause" "green"
+  "BSD-3-Clause" "green"
+  "Apache-2.0"   "green"
+  "0BSD"         "green"
+  "Unlicense"    "green"
+  "CC0-1.0"      "green"
+  "WTFPL"        "green"
+  "LGPL-2.1"     "orange"
+  "LGPL-3.0"     "orange"
+  "MPL-2.0"      "orange"
+  "EPL-1.0"      "orange"
+  "EPL-2.0"      "orange"
+  "CDDL-1.0"     "orange"
+  "CDDL-1.1"     "orange"
+  "CPL-1.0"      "orange"
+  "GPL-2.0"      "yellow"
+  "GPL-3.0"      "yellow"
+  "AGPL-3.0"     "yellow"
+  "SSPL-1.0"     "yellow"
+  "EUPL-1.1"     "yellow"
+  "EUPL-1.2"     "yellow"
+  "CC-BY-4.0"    "blue"
+  "CC-BY-SA-4.0" "blue"
+  "CC-BY-NC-4.0" "orange"
+  -}}
+
+{{- $color := index $colorMap $license | default "gray" -}}
+
+{{- /* Render the badge */ -}}
+{{- partial "shortcodes/badge.html" (dict
+  "content" $license
+  "color"   $color
+  "border"  true
+) -}}
