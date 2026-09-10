@@ -43,13 +43,23 @@ menu:
       parent: categories
       weight: 3
 
-    - name: Search
+    - name: Documents
+      pageRef: /tools/documents
+      parent: categories
       weight: 4
+
+    - name: Notes
+      pageRef: /tools/notes
+      parent: categories
+      weight: 5
+
+    - name: Search
+      weight: 6
       params:
         type: search
 
     - name: GitHub
-      weight: 5
+      weight: 7
       url: "https://github.com/riccione/ignes.com"
       params:
         icon: github
