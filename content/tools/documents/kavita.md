@@ -9,6 +9,8 @@ github: https://github.com/Kareadita/Kavita
 replaces: ["Ubooquity", "Komga"]
 ---
 
+{{< tool-info >}}
+
 ## Key Features
 
 * Built-in responsive readers for EPUB, PDF, CBZ/CBR with webtoon mode.

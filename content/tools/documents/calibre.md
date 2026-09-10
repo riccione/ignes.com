@@ -9,6 +9,8 @@ github: https://github.com/kovidgoyal/calibre
 replaces: ["Amazon Kindle desktop app", "Apple Books"]
 ---
 
+{{< tool-info >}}
+
 ## Key Features
 
 * Converts between all major e-book formats (EPUB, MOBI, AZW3, PDF, etc.).

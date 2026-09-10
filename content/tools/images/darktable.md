@@ -9,6 +9,8 @@ github: https://github.com/darktable-org/darktable
 replaces: ["Adobe Lightroom", "Capture One"]
 ---
 
+{{< tool-info >}}
+
 ## Key Features
 
 * Non-destructive RAW processing with 4x32-bit floating-point pipeline.

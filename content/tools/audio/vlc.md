@@ -9,6 +9,8 @@ github: https://github.com/videolan/vlc
 replaces: ["Windows Media Player", "QuickTime Player", "Winamp"]
 ---
 
+{{< tool-info >}}
+
 ## Key Features
 
 * Plays almost all audio/video formats without external codecs.

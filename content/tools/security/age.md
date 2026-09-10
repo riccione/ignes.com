@@ -9,6 +9,8 @@ github: https://github.com/FiloSottile/age
 replaces: ["GPG", "OpenSSL enc"]
 ---
 
+{{< tool-info >}}
+
 ## Key Features
 
 * Simple CLI with no configuration files — works like UNIX pipes.

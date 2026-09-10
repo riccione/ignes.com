@@ -9,6 +9,8 @@ github: https://github.com/veracrypt/VeraCrypt
 replaces: ["BitLocker", "FileVault", "TrueCrypt"]
 ---
 
+{{< tool-info >}}
+
 ## Key Features
 
 * Full-disk encryption including the Windows system partition with pre-boot authentication.

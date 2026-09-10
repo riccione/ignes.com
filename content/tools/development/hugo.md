@@ -9,6 +9,8 @@ github: https://github.com/gohugoio/hugo
 replaces: ["WordPress", "Squarespace", "Jekyll"]
 ---
 
+{{< tool-info >}}
+
 ## Key Features
 
 * Builds sites with 10,000+ pages in under 10 seconds.

@@ -9,6 +9,8 @@ github: https://github.com/zed-industries/zed
 replaces: ["VS Code", "Sublime Text", "JetBrains IDEs"]
 ---
 
+{{< tool-info >}}
+
 ## Key Features
 
 * Built-in real-time collaboration with voice and cursor sharing.

@@ -9,6 +9,8 @@ github: https://github.com/vim/vim
 replaces: ["Vi", "Nano"]
 ---
 
+{{< tool-info >}}
+
 ## Key Features
 
 * Modal editing with powerful keyboard shortcuts.

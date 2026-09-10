@@ -9,6 +9,8 @@ github: https://github.com/emacs-mirror/emacs
 replaces: ["IDEs", "Notion"]
 ---
 
+{{< tool-info >}}
+
 ## Key Features
 
 * Highly extensible via Emacs Lisp programming language.

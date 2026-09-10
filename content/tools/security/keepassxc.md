@@ -9,6 +9,8 @@ github: https://github.com/keepassxreboot/keepassxc
 replaces: ["LastPass", "1Password", "Dashlane"]
 ---
 
+{{< tool-info >}}
+
 ## Key Features
 
 * AES-256 / ChaCha20 encryption with Argon2id key derivation.

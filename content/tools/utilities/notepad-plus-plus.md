@@ -9,6 +9,8 @@ github: https://github.com/notepad-plus-plus/notepad-plus-plus
 replaces: ["Windows Notepad", "UltraEdit"]
 ---
 
+{{< tool-info >}}
+
 ## Key Features
 
 * Syntax highlighting for 80+ programming languages.

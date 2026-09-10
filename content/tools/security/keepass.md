@@ -9,6 +9,8 @@ github: https://keepass.info/
 replaces: ["LastPass", "1Password", "RoboForm"]
 ---
 
+{{< tool-info >}}
+
 ## Key Features
 
 * AES-256, ChaCha20, and Twofish encryption with multiple key providers.
