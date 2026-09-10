@@ -1,12 +1,7 @@
 ---
-date: '2026-08-25T07:48:03+02:00'
 title: Software Directory
 ---
 
-# Browse by Category
+Browse all available tools by category.
 
-{{< cards >}}
-  {{< card link="/tools/images" title="Images & Media" subtitle="Google Photos, Lightroom alternatives" >}}
-  {{< card link="/tools/utilities" title="Utilities" subtitle="System controls, cleaners, debloaters" >}}
-  {{< card link="/tools/audio" title="Audio & Music" subtitle="Spotify, iTunes, media servers" >}}
-{{< /cards >}}
+{{< tool-list >}}
