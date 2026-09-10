@@ -8,7 +8,4 @@ title: FOSS Debloat Directory
 
 Find clean, lightweight alternatives to proprietary software and bloated cloud apps.
 
-{{< cards >}}
-  {{< card link="/tools/immich" title="Immich" subtitle="Replaces Google Photos & iCloud" >}}
-  {{< card link="/tools/g-helper" title="G-Helper" subtitle="Replaces ASUS Armoury Crate" >}}
-{{< /cards >}}
+{{< tool-list >}}

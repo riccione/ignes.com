@@ -1,0 +1,45 @@
+{{- /*
+  tool-list.html
+  Automatically lists all tool pages from content/tools/ as cards.
+
+  @param {int}    cols      Number of grid columns (default: 3)
+  @param {string} category  Filter by category name (optional)
+  @param {string} sort      Sort field: "title" or "weight" (default: "title")
+
+  Usage: tool-list (no parameters needed)
+*/ -}}
+
+{{- $cols := .Get "cols" | default 3 -}}
+{{- $categoryFilter := .Get "category" -}}
+{{- $sortField := .Get "sort" | default "title" -}}
+
+{{- $toolsSection := site.GetPage "/tools" -}}
+{{- $pages := $toolsSection.RegularPages -}}
+
+{{- if $categoryFilter -}}
+  {{- $pages = where $pages "Params.categories" "intersect" (slice $categoryFilter) -}}
+{{- end -}}
+
+{{- if eq $sortField "title" -}}
+  {{- $pages = sort $pages ".Title" -}}
+{{- end -}}
+
+<div class="hextra-cards hx:mt-4 hx:gap-4 hx:grid not-prose" style="--hextra-cards-grid-cols: {{ $cols }};">
+  {{- range $pages -}}
+    <a
+      class="hextra-card hx:group hx:flex hx:flex-col hx:justify-start hx:overflow-hidden hx:rounded-lg hx:border hx:border-gray-200 hx:text-current hx:no-underline hx:dark:shadow-none hx:hover:shadow-gray-100 hx:dark:hover:shadow-none hx:shadow-gray-100 hx:active:shadow-sm hx:active:shadow-gray-200 hx:transition-all hx:duration-200 hx:hover:border-gray-300 hx:bg-transparent hx:shadow-xs hx:dark:border-neutral-800 hx:hover:bg-slate-50 hx:hover:shadow-md hx:dark:hover:border-neutral-700 hx:dark:hover:bg-neutral-900"
+      href="{{ .RelPermalink }}"
+    >
+      <div class="hx:mt-auto">
+        <span class="hextra-card-icon hx:flex hx:font-semibold hx:items-start hx:gap-2 hx:p-4 hx:text-gray-700 hx:hover:text-gray-900 hx:dark:text-neutral-200 hx:dark:hover:text-neutral-50">
+          {{- .Title -}}
+        </span>
+        {{- with .Description -}}
+          <div class="hextra-card-subtitle hx:line-clamp-3 hx:text-sm hx:font-normal hx:text-gray-500 hx:dark:text-gray-400 hx:px-4 hx:mb-4 hx:mt-2">
+            {{- . | markdownify -}}
+          </div>
+        {{- end -}}
+      </div>
+    </a>
+  {{- end -}}
+</div>
