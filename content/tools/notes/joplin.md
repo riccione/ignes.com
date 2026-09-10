@@ -1,6 +1,5 @@
 ---
 date: '2026-08-25T07:49:49+02:00'
-draft: true
 title: Joplin
 description: Free, open-source note-taking and to-do application with sync capabilities and end-to-end encryption.
 categories: ["Notes"]

@@ -1,6 +1,5 @@
 ---
 date: '2026-08-25T07:49:49+02:00'
-draft: true
 title: GIMP
 description: GNU Image Manipulation Program for photo retouching, image composition, and image authoring.
 categories: ["Images & Media"]

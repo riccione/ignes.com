@@ -1,6 +1,5 @@
 ---
 date: '2026-08-25T07:47:56+02:00'
-draft: true
 title: FOSS Debloat Directory
 ---
 

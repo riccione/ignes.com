@@ -1,6 +1,5 @@
 ---
 date: '2026-08-25T07:49:49+02:00'
-draft: true
 title: Immich
 description: High-performance self-hosted photo and video backup solution.
 categories: ["Images & Media", "NAS & Storage"]

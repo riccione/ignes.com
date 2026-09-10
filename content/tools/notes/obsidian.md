@@ -1,6 +1,5 @@
 ---
 date: '2026-08-25T07:49:49+02:00'
-draft: true
 title: Obsidian
 description: Knowledge base and note-taking application that operates on local Markdown files.
 categories: ["Notes"]

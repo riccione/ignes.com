@@ -1,6 +1,5 @@
 ---
 date: '2026-08-25T07:49:49+02:00'
-draft: true
 title: G-Helper
 description: Lightweight alternative to ASUS Armoury Crate for laptop fan and performance control.
 categories: ["Utilities"]

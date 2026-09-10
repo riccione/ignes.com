@@ -1,6 +1,5 @@
 ---
 date: '2026-08-25T07:49:49+02:00'
-draft: true
 title: LibreOffice
 description: Free and open-source office suite with six integrated applications for word processing, spreadsheets, and more.
 categories: ["Documents"]
