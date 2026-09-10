@@ -13,8 +13,7 @@
 {{- $categoryFilter := .Get "category" -}}
 {{- $sortField := .Get "sort" | default "title" -}}
 
-{{- $toolsSection := site.GetPage "/tools" -}}
-{{- $pages := $toolsSection.RegularPages -}}
+{{- $pages := where site.RegularPages "Section" "tools" -}}
 
 {{- if $categoryFilter -}}
   {{- $pages = where $pages "Params.categories" "intersect" (slice $categoryFilter) -}}
