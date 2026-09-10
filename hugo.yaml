@@ -51,11 +51,15 @@ menu:
 
 params:
   description: Clean, privacy-first open source replacements for bloated software.
+  page:
+    width: full
   navbar:
     displayTitle: true
+    width: full
   footer:
     displayCopyright: false
     credits: "No tracking. No ads. Powered by Hugo & Hextra."
+    width: full
   blog:
     list:
       displayTags: true
