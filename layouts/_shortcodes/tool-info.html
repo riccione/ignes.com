@@ -13,6 +13,13 @@
 
 {{- $page := .Page -}}
 
+{{- /* Description */ -}}
+{{- with $page.Params.description }}
+<div class="hx:mt-4 hx:mb-4 hx:text-lg hx:text-gray-700 hx:dark:text-gray-300">
+  {{ . }}
+</div>
+{{- end -}}
+
 {{- /* License badge */ -}}
 {{- with $page.Params.license }}
 <div class="hx:mt-4 hx:mb-4">
