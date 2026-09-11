@@ -6,7 +6,7 @@ tags: ["encryption", "disk-encryption", "privacy", "Windows", "macOS", "Linux"]
 license: Apache-2.0
 website: https://veracrypt.io/
 github: https://github.com/veracrypt/VeraCrypt
-replaces: ["BitLocker", "FileVault", "TrueCrypt"]
+replaces: ["BitLocker", "FileVault"]
 ---
 
 {{< tool-info >}}

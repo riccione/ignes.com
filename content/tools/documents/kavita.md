@@ -6,7 +6,7 @@ tags: ["reading", "comics", "manga", "self-hosted", "epub", "Windows", "macOS", 
 license: GPL-3.0
 website: https://www.kavitareader.com
 github: https://github.com/Kareadita/Kavita
-replaces: ["Ubooquity", "Komga"]
+replaces: ["Comixology", "Amazon Kindle"]
 ---
 
 {{< tool-info >}}

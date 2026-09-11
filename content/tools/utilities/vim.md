@@ -6,7 +6,7 @@ tags: ["text-editor", "terminal", "modal", "Windows", "macOS", "Linux"]
 license: Vim License (charityware, GPL-compatible)
 website: https://www.vim.org
 github: https://github.com/vim/vim
-replaces: ["Vi", "Nano"]
+replaces: ["Sublime Text", "EditPlus"]
 ---
 
 {{< tool-info >}}

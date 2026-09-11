@@ -6,7 +6,7 @@ tags: ["text-editor", "ide", "extensible", "Windows", "macOS", "Linux"]
 license: GPL-3.0
 website: https://www.gnu.org/software/emacs/
 github: https://github.com/emacs-mirror/emacs
-replaces: ["IDEs", "Notion"]
+replaces: ["Visual Studio", "IntelliJ IDEA"]
 ---
 
 {{< tool-info >}}

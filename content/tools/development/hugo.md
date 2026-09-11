@@ -6,7 +6,7 @@ tags: ["static-site", "generator", "web", "Windows", "macOS", "Linux"]
 license: Apache-2.0
 website: https://gohugo.io/
 github: https://github.com/gohugoio/hugo
-replaces: ["WordPress", "Squarespace", "Jekyll"]
+replaces: ["Wix", "Webflow", "Squarespace"]
 ---
 
 {{< tool-info >}}
