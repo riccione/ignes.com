@@ -32,7 +32,6 @@
 {{- with $page.Params.replaces }}
 <div class="hx:mt-4 hx:mb-4">
   {{- partial "shortcodes/callout.html" (dict
-    "emoji" "🔄"
     "content" (printf "**Replaces:** %s" (delimit . ", "))
     "class" "hx:border-blue-100 hx:bg-blue-50 hx:text-blue-800 hx:dark:border-blue-400/30 hx:dark:bg-blue-400/20 hx:dark:text-blue-300"
   ) -}}
@@ -48,7 +47,7 @@
     rel="noreferrer"
     class="hx:inline-flex hx:items-center hx:gap-1 hx:rounded-md hx:bg-gray-100 hx:px-3 hx:py-1.5 hx:text-sm hx:text-gray-700 hx:hover:bg-gray-200 hx:dark:bg-neutral-800 hx:dark:text-neutral-200 hx:dark:hover:bg-neutral-700 hx:transition-colors"
   >
-    🌐 Website
+    Website
   </a>
   {{- end -}}
   {{- with $page.Params.github }}
@@ -58,7 +57,7 @@
     rel="noreferrer"
     class="hx:inline-flex hx:items-center hx:gap-1 hx:rounded-md hx:bg-gray-100 hx:px-3 hx:py-1.5 hx:text-sm hx:text-gray-700 hx:hover:bg-gray-200 hx:dark:bg-neutral-800 hx:dark:text-neutral-200 hx:dark:hover:bg-neutral-700 hx:transition-colors"
   >
-    💻 Source Code
+    Source Code
   </a>
   {{- end }}
 </div>
