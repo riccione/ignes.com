@@ -63,17 +63,22 @@ menu:
       parent: categories
       weight: 7
 
-    - name: Tags
-      pageRef: /tags
+    - name: CAD & Engineering
+      pageRef: /tools/cad
+      parent: categories
       weight: 8
 
-    - name: Search
+    - name: Tags
+      pageRef: /tags
       weight: 9
+
+    - name: Search
+      weight: 10
       params:
         type: search
 
     - name: GitHub
-      weight: 10
+      weight: 11
       url: "https://github.com/riccione/ignes.com"
       params:
         icon: github
