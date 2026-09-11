@@ -10,7 +10,6 @@ github: https://github.com/audacity/audacity
 replaces: ["Adobe Audition", "GarageBand"]
 ---
 
-# Audacity
 
 {{< tool-info >}}
 

@@ -10,7 +10,6 @@ github: https://github.com/LibreOffice/core
 replaces: ["Microsoft Office", "Google Workspace"]
 ---
 
-# LibreOffice
 
 {{< tool-info >}}
 

@@ -10,7 +10,6 @@ github: https://github.com/GNOME/gimp
 replaces: ["Adobe Photoshop"]
 ---
 
-# GIMP
 
 {{< tool-info >}}
 

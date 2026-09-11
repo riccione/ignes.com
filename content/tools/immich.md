@@ -10,7 +10,6 @@ github: https://github.com/immich-app/immich
 replaces: ["Google Photos", "iCloud Photos"]
 ---
 
-# Immich
 
 {{< tool-info >}}
 

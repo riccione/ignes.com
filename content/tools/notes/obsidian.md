@@ -10,7 +10,6 @@ github: https://github.com/obsidianmd
 replaces: ["Notion", "Roam Research"]
 ---
 
-# Obsidian
 
 {{< tool-info >}}
 

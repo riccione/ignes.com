@@ -10,7 +10,6 @@ github: https://github.com/laurent22/joplin
 replaces: ["Evernote", "OneNote"]
 ---
 
-# Joplin
 
 {{< tool-info >}}
 

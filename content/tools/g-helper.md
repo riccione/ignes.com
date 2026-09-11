@@ -10,7 +10,6 @@ github: https://github.com/seerge/g-helper
 replaces: ["ASUS Armoury Crate"]
 ---
 
-# G-Helper
 
 {{< tool-info >}}
 
