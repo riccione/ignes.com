@@ -7,6 +7,7 @@ license: GPL-3.0
 website: https://shotcut.org
 github: https://github.com/mltframework/shotcut
 replaces: ["Adobe Premiere Pro", "Final Cut Pro", "Vegas Pro"]
+foss_alternatives: ["OpenShot"]
 ---
 
 {{< tool-info >}}

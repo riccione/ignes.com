@@ -9,4 +9,5 @@ license: ''
 website: ''
 github: ''
 replaces: []
+foss_alternatives: []
 ---

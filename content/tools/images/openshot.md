@@ -7,6 +7,7 @@ license: GPL-3.0
 website: https://www.openshot.org
 github: https://github.com/OpenShot/openshot-qt
 replaces: ["Adobe Premiere Pro", "Filmora"]
+foss_alternatives: ["Shotcut"]
 ---
 
 {{< tool-info >}}

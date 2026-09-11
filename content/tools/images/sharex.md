@@ -7,6 +7,7 @@ license: GPL-3.0
 website: https://getsharex.com
 github: https://github.com/ShareX/ShareX
 replaces: ["Snagit", "Camtasia", "FastStone Capture"]
+foss_alternatives: ["OBS Studio"]
 ---
 
 {{< tool-info >}}

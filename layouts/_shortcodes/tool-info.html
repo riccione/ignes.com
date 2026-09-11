@@ -39,6 +39,27 @@
 </div>
 {{- end -}}
 
+{{- /* FOSS Alternatives */ -}}
+{{- with $page.Params.foss_alternatives }}
+<div class="hx:mt-4 hx:mb-4 hx:overflow-x-auto hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:border-green-100 hx:bg-green-50 hx:text-green-800 hx:dark:border-green-400/30 hx:dark:bg-green-400/20 hx:dark:text-green-300 hx:contrast-more:border-current hx:contrast-more:dark:border-current">
+  <div class="hx:w-full hx:min-w-0 hx:leading-7">
+    <div class="hx:mt-6 hx:leading-7 hx:first:mt-0">
+      <strong>FOSS Alternative:</strong>
+      {{- range $i, $alt := . }}
+        {{- if $i }}, {{ end }}
+        {{- $found := where site.Pages ".Title" $alt -}}
+        {{- with $found }}
+          {{- $p := index . 0 -}}
+          <a href="{{ $p.RelPermalink }}" class="hx:text-green-800 hx:dark:text-green-300 hx:underline hx:hover:text-green-900 hx:dark:hover:text-green-200">{{ $alt }}</a>
+        {{- else }}
+          {{ $alt }}
+        {{- end }}
+      {{- end }}
+    </div>
+  </div>
+</div>
+{{- end -}}
+
 {{- /* Links */ -}}
 <div class="hx:mt-4 hx:mb-4 hx:flex hx:flex-wrap hx:gap-2">
   {{- with $page.Params.website }}

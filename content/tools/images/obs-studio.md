@@ -7,6 +7,7 @@ license: GPL-2.0
 website: https://obsproject.com
 github: https://github.com/obsproject/obs-studio
 replaces: ["XSplit", "Wirecast", "vMix"]
+foss_alternatives: ["ShareX"]
 ---
 
 {{< tool-info >}}
