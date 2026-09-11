@@ -7,6 +7,7 @@ license: BSD-3-Clause
 website: https://age-encryption.org/
 github: https://github.com/FiloSottile/age
 replaces: ["AxCrypt", "AES Crypt", "FileCryptor", "Crypt"]
+foss_alternatives: ["VeraCrypt"]
 ---
 
 {{< tool-info >}}

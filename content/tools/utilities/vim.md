@@ -7,6 +7,7 @@ license: Vim License (charityware, GPL-compatible)
 website: https://www.vim.org
 github: https://github.com/vim/vim
 replaces: ["Sublime Text", "EditPlus"]
+foss_alternatives: ["Emacs"]
 ---
 
 {{< tool-info >}}

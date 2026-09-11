@@ -7,6 +7,7 @@ license: GPL-3.0
 website: https://calibre-ebook.com
 github: https://github.com/kovidgoyal/calibre
 replaces: ["Amazon Kindle desktop app", "Apple Books"]
+foss_alternatives: ["Kavita"]
 ---
 
 {{< tool-info >}}

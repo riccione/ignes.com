@@ -7,6 +7,7 @@ license: GPL-3.0
 website: https://zed.dev
 github: https://github.com/zed-industries/zed
 replaces: ["VS Code", "Sublime Text", "JetBrains IDEs"]
+foss_alternatives: ["Emacs", "Vim"]
 ---
 
 {{< tool-info >}}

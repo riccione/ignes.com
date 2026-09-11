@@ -7,6 +7,7 @@ license: GPL-3.0
 website: https://www.gnu.org/software/emacs/
 github: https://github.com/emacs-mirror/emacs
 replaces: ["Visual Studio", "IntelliJ IDEA"]
+foss_alternatives: ["Zed", "Vim"]
 ---
 
 {{< tool-info >}}

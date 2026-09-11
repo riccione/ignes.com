@@ -7,6 +7,7 @@ license: GPL-3.0
 website: https://www.kavitareader.com
 github: https://github.com/Kareadita/Kavita
 replaces: ["Comixology", "Amazon Kindle"]
+foss_alternatives: ["Calibre"]
 ---
 
 {{< tool-info >}}
