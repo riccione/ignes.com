@@ -7,7 +7,7 @@ license: GPL-2.0
 website: https://keepass.info/
 github: https://keepass.info/
 replaces: ["LastPass", "1Password", "RoboForm"]
-foss_alternatives: ["KeePassXC"]
+foss_alternatives: ["KeePassXC", "Hermes OTP"]
 ---
 
 {{< tool-info >}}
