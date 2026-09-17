@@ -60,6 +60,17 @@
 </div>
 {{- end -}}
 
+{{- /* Platform */ -}}
+{{- with $page.Params.platform }}
+<div class="hx:mt-4 hx:mb-4 hx:overflow-x-auto hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:border-purple-100 hx:bg-purple-50 hx:text-purple-800 hx:dark:border-purple-400/30 hx:dark:bg-purple-400/20 hx:dark:text-purple-300 hx:contrast-more:border-current hx:contrast-more:dark:border-current">
+  <div class="hx:w-full hx:min-w-0 hx:leading-7">
+    <div class="hx:mt-6 hx:leading-7 hx:first:mt-0">
+      <strong>Platform:</strong> {{ delimit . ", " }}
+    </div>
+  </div>
+</div>
+{{- end -}}
+
 {{- /* Links */ -}}
 <div class="hx:mt-4 hx:mb-4 hx:flex hx:flex-wrap hx:gap-2">
   {{- with $page.Params.website }}
