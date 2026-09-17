@@ -3,7 +3,8 @@ date: '2026-08-25T07:49:49+02:00'
 title: Audacity
 description: Free, open-source digital audio editor and recording application.
 categories: ["Audio"]
-tags: ["audio", "recording", "editing", "Windows", "macOS", "Linux"]
+tags: ["audio", "recording", "editing"]
+platform: ["Windows", "macOS", "Linux"]
 license: GPL-3.0
 website: https://www.audacityteam.org/
 github: https://github.com/audacity/audacity

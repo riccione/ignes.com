@@ -2,12 +2,13 @@
 title: KeePassXC
 description: Modern, secure, cross-platform password manager with local encrypted storage.
 categories: ["Security"]
-tags: ["password-manager", "encryption", "security", "Windows", "macOS", "Linux"]
+tags: ["password-manager", "encryption", "security"]
+platform: ["Windows", "macOS", "Linux"]
 license: GPL-2.0
 website: https://keepassxc.org/
 github: https://github.com/keepassxreboot/keepassxc
 replaces: ["LastPass", "1Password", "Dashlane"]
-foss_alternatives: ["KeePass"]
+foss_alternatives: ["KeePass", "Hermes OTP"]
 ---
 
 {{< tool-info >}}

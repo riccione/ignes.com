@@ -2,7 +2,8 @@
 title: Emacs
 description: Extensible, customizable, self-documenting real-time display editor.
 categories: ["Utilities"]
-tags: ["text-editor", "ide", "extensible", "Windows", "macOS", "Linux"]
+tags: ["text-editor", "ide", "extensible"]
+platform: ["Windows", "macOS", "Linux"]
 license: GPL-3.0
 website: https://www.gnu.org/software/emacs/
 github: https://github.com/emacs-mirror/emacs

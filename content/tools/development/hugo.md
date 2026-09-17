@@ -2,7 +2,8 @@
 title: Hugo
 description: World's fastest static site generator, written in Go.
 categories: ["Development"]
-tags: ["static-site", "generator", "web", "Windows", "macOS", "Linux"]
+tags: ["static-site", "generator", "web"]
+platform: ["Windows", "macOS", "Linux"]
 license: Apache-2.0
 website: https://gohugo.io/
 github: https://github.com/gohugoio/hugo

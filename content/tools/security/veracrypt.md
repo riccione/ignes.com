@@ -2,7 +2,8 @@
 title: VeraCrypt
 description: Free disk encryption tool for creating encrypted volumes and full-disk encryption.
 categories: ["Security"]
-tags: ["encryption", "disk-encryption", "privacy", "Windows", "macOS", "Linux"]
+tags: ["encryption", "disk-encryption", "privacy"]
+platform: ["Windows", "macOS", "Linux"]
 license: Apache-2.0
 website: https://veracrypt.io/
 github: https://github.com/veracrypt/VeraCrypt
