@@ -2,7 +2,8 @@
 title: KeePass
 description: Original lightweight password manager storing passwords in encrypted database files.
 categories: ["Security"]
-tags: ["password-manager", "encryption", "security", "Windows"]
+tags: ["password-manager", "encryption", "security"]
+platform: ["Windows"]
 license: GPL-2.0
 website: https://keepass.info/
 github: https://keepass.info/

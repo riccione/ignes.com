@@ -2,7 +2,8 @@
 title: Shotcut
 description: Free, open-source, cross-platform video editor supporting hundreds of formats.
 categories: ["Images & Media"]
-tags: ["video-editor", "video", "editing", "ffmpeg", "Windows", "macOS", "Linux"]
+tags: ["video-editor", "video", "editing", "ffmpeg"]
+platform: ["Windows", "macOS", "Linux"]
 license: GPL-3.0
 website: https://shotcut.org
 github: https://github.com/mltframework/shotcut

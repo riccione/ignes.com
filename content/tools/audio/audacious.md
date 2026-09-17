@@ -2,7 +2,8 @@
 title: Audacious
 description: Open-source audio player and a descendant of XMMS that plays your music without stealing resources.
 categories: ["Audio"]
-tags: ["audio-player", "music", "lightweight", "Linux", "macOS", "Windows"]
+tags: ["audio-player", "music", "lightweight"]
+platform: ["Linux", "macOS", "Windows"]
 license: BSD-2-Clause
 website: https://audacious-media-player.org
 github: https://github.com/audacious-media-player/audacious

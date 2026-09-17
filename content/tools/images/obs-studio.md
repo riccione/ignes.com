@@ -2,7 +2,8 @@
 title: OBS Studio
 description: Free and open-source software for video recording and live streaming.
 categories: ["Images & Media"]
-tags: ["streaming", "recording", "video", "broadcast", "Windows", "macOS", "Linux"]
+tags: ["streaming", "recording", "video", "broadcast"]
+platform: ["Windows", "macOS", "Linux"]
 license: GPL-2.0
 website: https://obsproject.com
 github: https://github.com/obsproject/obs-studio

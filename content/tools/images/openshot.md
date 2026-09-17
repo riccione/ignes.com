@@ -2,7 +2,8 @@
 title: OpenShot
 description: Award-winning free and open-source video editor with powerful animation and editing tools.
 categories: ["Images & Media"]
-tags: ["video-editor", "video", "animation", "editing", "Windows", "macOS", "Linux"]
+tags: ["video-editor", "video", "animation", "editing"]
+platform: ["Windows", "macOS", "Linux"]
 license: GPL-3.0
 website: https://www.openshot.org
 github: https://github.com/OpenShot/openshot-qt

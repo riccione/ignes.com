@@ -2,7 +2,8 @@
 title: Calibre
 description: Cross-platform e-book manager to view, convert, edit, and catalog e-books.
 categories: ["Documents"]
-tags: ["ebook", "library", "converter", "epub", "Windows", "macOS", "Linux"]
+tags: ["ebook", "library", "converter", "epub"]
+platform: ["Windows", "macOS", "Linux"]
 license: GPL-3.0
 website: https://calibre-ebook.com
 github: https://github.com/kovidgoyal/calibre

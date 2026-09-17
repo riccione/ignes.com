@@ -2,7 +2,8 @@
 title: Darktable
 description: Open-source photography workflow application and non-destructive RAW developer.
 categories: ["Images & Media"]
-tags: ["photo", "raw", "editing", "photography", "Windows", "macOS", "Linux"]
+tags: ["photo", "raw", "editing", "photography"]
+platform: ["Windows", "macOS", "Linux"]
 license: GPL-3.0
 website: https://www.darktable.org
 github: https://github.com/darktable-org/darktable

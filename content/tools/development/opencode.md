@@ -2,7 +2,8 @@
 title: OpenCode
 description: Open-source AI coding agent that helps you write code in your terminal, IDE, or desktop.
 categories: ["Development"]
-tags: ["ai", "coding", "cli", "terminal", "Windows", "macOS", "Linux"]
+tags: ["ai", "coding", "cli", "terminal"]
+platform: ["Windows", "macOS", "Linux"]
 license: MIT
 website: https://opencode.ai/
 github: https://github.com/anomalyco/opencode

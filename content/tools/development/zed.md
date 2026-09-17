@@ -2,7 +2,8 @@
 title: Zed
 description: High-performance, multiplayer code editor built for speed and collaboration.
 categories: ["Development"]
-tags: ["code-editor", "ide", "collaboration", "Windows", "macOS", "Linux"]
+tags: ["code-editor", "ide", "collaboration"]
+platform: ["Windows", "macOS", "Linux"]
 license: GPL-3.0
 website: https://zed.dev
 github: https://github.com/zed-industries/zed

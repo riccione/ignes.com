@@ -2,7 +2,8 @@
 title: VLC
 description: Free and open-source cross-platform multimedia player.
 categories: ["Audio"]
-tags: ["media-player", "video", "audio", "streaming", "Windows", "macOS", "Linux", "Android", "iOS"]
+tags: ["media-player", "video", "audio", "streaming"]
+platform: ["Windows", "macOS", "Linux", "Android", "iOS"]
 license: GPL-2.0
 website: https://www.videolan.org/vlc/
 github: https://github.com/videolan/vlc

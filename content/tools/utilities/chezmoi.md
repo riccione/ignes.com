@@ -2,7 +2,8 @@
 title: Chezmoi
 description: Manage your personal configuration files (dotfiles) across multiple machines, securely.
 categories: ["Utilities"]
-tags: ["dotfiles", "configuration", "sync", "security", "Windows", "macOS", "Linux"]
+tags: ["dotfiles", "configuration", "sync", "security"]
+platform: ["Windows", "macOS", "Linux"]
 license: MIT
 website: https://www.chezmoi.io/
 github: https://github.com/twpayne/chezmoi

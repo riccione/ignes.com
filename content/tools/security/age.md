@@ -2,7 +2,8 @@
 title: Age
 description: Simple, modern, and secure file encryption tool, format, and Go library.
 categories: ["Security"]
-tags: ["encryption", "cli", "privacy", "Windows", "macOS", "Linux"]
+tags: ["encryption", "cli", "privacy"]
+platform: ["Windows", "macOS", "Linux"]
 license: BSD-3-Clause
 website: https://age-encryption.org/
 github: https://github.com/FiloSottile/age

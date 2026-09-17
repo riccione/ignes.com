@@ -2,7 +2,8 @@
 title: ShareX
 description: Free and open-source screenshot tool with screen capture, recording, and productivity features.
 categories: ["Images & Media"]
-tags: ["screenshot", "screen-recording", "capture", "sharing", "Windows"]
+tags: ["screenshot", "screen-recording", "capture", "sharing"]
+platform: ["Windows"]
 license: GPL-3.0
 website: https://getsharex.com
 github: https://github.com/ShareX/ShareX

@@ -2,7 +2,8 @@
 title: 7-Zip
 description: File archiver with a high compression ratio using LZMA and LZMA2 algorithms.
 categories: ["Utilities"]
-tags: ["archive", "compression", "zip", "7z", "Windows", "Linux", "macOS"]
+tags: ["archive", "compression", "zip", "7z"]
+platform: ["Windows", "Linux", "macOS"]
 license: LGPL-2.1
 website: https://7-zip.org/
 github: https://github.com/ip7z/7zip

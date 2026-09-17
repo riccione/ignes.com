@@ -2,7 +2,8 @@
 title: Notepad++
 description: Free source code editor and Windows Notepad replacement.
 categories: ["Utilities"]
-tags: ["text-editor", "notepad", "Windows"]
+tags: ["text-editor", "notepad"]
+platform: ["Windows"]
 license: GPL-3.0
 website: https://notepad-plus-plus.org
 github: https://github.com/notepad-plus-plus/notepad-plus-plus

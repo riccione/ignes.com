@@ -2,7 +2,8 @@
 title: Podman
 description: Daemonless, open-source tool for managing OCI containers and pods with Docker CLI compatibility.
 categories: ["Development"]
-tags: ["containers", "docker", "kubernetes", "devops", "Linux", "macOS", "Windows"]
+tags: ["containers", "docker", "kubernetes", "devops"]
+platform: ["Linux", "macOS", "Windows"]
 license: Apache-2.0
 website: https://podman.io
 github: https://github.com/containers/podman

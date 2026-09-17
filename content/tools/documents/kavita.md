@@ -2,7 +2,8 @@
 title: Kavita
 description: Self-hosted digital library and reading server for comics, manga, and books.
 categories: ["Documents"]
-tags: ["reading", "comics", "manga", "self-hosted", "epub", "Windows", "macOS", "Linux", "Web"]
+tags: ["reading", "comics", "manga", "self-hosted", "epub"]
+platform: ["Windows", "macOS", "Linux", "Web"]
 license: GPL-3.0
 website: https://www.kavitareader.com
 github: https://github.com/Kareadita/Kavita

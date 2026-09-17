@@ -2,7 +2,8 @@
 title: Hermes OTP
 description: CLI OTP (One-Time Password) manager designed for pipelines and automation, built with Rust.
 categories: ["Security"]
-tags: ["otp", "totp", "2fa", "cli", "security", "Linux", "macOS", "Windows"]
+tags: ["otp", "totp", "2fa", "cli", "security"]
+platform: ["Linux", "macOS", "Windows"]
 license: MIT
 website: https://github.com/riccione/hermes-otp
 github: https://github.com/riccione/hermes-otp

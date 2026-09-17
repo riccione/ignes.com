@@ -2,7 +2,8 @@
 title: FreeCAD
 description: Open-source parametric 3D modeler for designing real-life objects of any size.
 categories: ["CAD & Engineering"]
-tags: ["3d-modeling", "cad", "engineering", "parametric", "Windows", "macOS", "Linux"]
+tags: ["3d-modeling", "cad", "engineering", "parametric"]
+platform: ["Windows", "macOS", "Linux"]
 license: LGPL-2.1
 website: https://www.freecad.org/
 github: https://github.com/FreeCAD/FreeCAD

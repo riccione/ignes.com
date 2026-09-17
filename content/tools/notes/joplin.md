@@ -3,7 +3,8 @@ date: '2026-08-25T07:49:49+02:00'
 title: Joplin
 description: Free, open-source note-taking and to-do application with sync capabilities and end-to-end encryption.
 categories: ["Notes"]
-tags: ["notes", "productivity", "encryption", "sync", "Windows", "macOS", "Linux", "Android", "iOS", "Web"]
+tags: ["notes", "productivity", "encryption", "sync"]
+platform: ["Windows", "macOS", "Linux", "Android", "iOS", "Web"]
 license: AGPL-3.0
 website: https://joplinapp.org/
 github: https://github.com/laurent22/joplin

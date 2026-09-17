@@ -3,7 +3,8 @@ date: '2026-08-25T07:49:49+02:00'
 title: Obsidian
 description: Knowledge base and note-taking application that operates on local Markdown files.
 categories: ["Notes"]
-tags: ["notes", "knowledge-base", "markdown", "Windows", "macOS", "Linux", "Android", "iOS"]
+tags: ["notes", "knowledge-base", "markdown"]
+platform: ["Windows", "macOS", "Linux", "Android", "iOS"]
 license: Proprietary (free)
 website: https://obsidian.md/
 github: https://github.com/obsidianmd
