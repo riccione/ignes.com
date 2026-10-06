@@ -68,17 +68,27 @@ menu:
       parent: categories
       weight: 8
 
-    - name: Tags
-      pageRef: /tags
+    - name: Collaboration
+      pageRef: /tools/collaboration
+      parent: categories
       weight: 9
 
-    - name: Search
+    - name: Genealogy
+      pageRef: /tools/genealogy
+      parent: categories
       weight: 10
+
+    - name: Tags
+      pageRef: /tags
+      weight: 11
+
+    - name: Search
+      weight: 12
       params:
         type: search
 
     - name: GitHub
-      weight: 11
+      weight: 13
       url: "https://github.com/riccione/ignes.com"
       params:
         icon: github
