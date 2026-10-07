@@ -1,0 +1,37 @@
+{{- /*
+  github-stars.html
+  Renders a star count chip for a tool page's GitHub repository.
+  Returns an empty string when stars are unavailable (graceful omission).
+
+  Expects: a page context with params.github
+*/ -}}
+{{- $out := "" -}}
+{{- with .Params.github -}}
+  {{- $m := findRESubmatch `github\.com/([^/]+)/([^/?#]+)` . -}}
+  {{- if $m -}}
+    {{- $sub := index $m 0 -}}
+    {{- $url := printf "https://api.github.com/repos/%s/%s" (index $sub 1) (index $sub 2) -}}
+    {{- $r := try (resources.GetRemote $url (dict "timeout" "10s")) -}}
+    {{- if $r.Err -}}
+      {{- warnf "github-stars: failed to fetch %s: %s" $url $r.Err -}}
+    {{- else if $r.Value -}}
+      {{- $data := $r.Value.Content | transform.Unmarshal -}}
+      {{- $n := int (index $data "stargazers_count") -}}
+      {{- if gt $n 0 -}}
+        {{- if lt $n 1000 -}}
+          {{- $out = printf "%d star" $n -}}
+          {{- if gt $n 1 -}}{{- $out = printf "%d stars" $n -}}{{- end -}}
+        {{- else if lt $n 1000000 -}}
+          {{- $k := printf "%.1f" (div $n 1000.0) -}}
+          {{- $k = strings.TrimSuffix ".0" $k -}}
+          {{- $out = printf "%sK stars" $k -}}
+        {{- else -}}
+          {{- $m2 := printf "%.1f" (div $n 1000000.0) -}}
+          {{- $m2 = strings.TrimSuffix ".0" $m2 -}}
+          {{- $out = printf "%sM stars" $m2 -}}
+        {{- end -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- return $out -}}

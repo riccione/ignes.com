@@ -109,3 +109,9 @@ params:
       displayTags: true
   toc:
     displayTags: true
+
+# Refresh GitHub stars data hourly instead of caching forever
+caches:
+  getresource:
+    dir: ':cacheDir/:project'
+    maxAge: 1h
