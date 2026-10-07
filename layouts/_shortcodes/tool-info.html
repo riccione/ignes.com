@@ -93,4 +93,13 @@
     Source Code
   </a>
   {{- end }}
+  {{- $stars := partial "github-stars.html" $page -}}
+  {{- with $stars }}
+  <span
+    class="hx:inline-flex hx:items-center hx:gap-1 hx:rounded-md hx:bg-gray-100 hx:px-3 hx:py-1.5 hx:text-sm hx:text-gray-700 hx:dark:bg-neutral-800 hx:dark:text-neutral-200"
+  >
+    <svg class="hx:h-3.5 hx:w-3.5" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true"><path d="M12 2l2.9 6.6 7.1.7-5.3 4.8 1.5 7-6.2-3.6L5.8 21l1.5-7-5.3-4.8 7.1-.7L12 2z"/></svg>
+    {{ . }}
+  </span>
+  {{- end }}
 </div>
