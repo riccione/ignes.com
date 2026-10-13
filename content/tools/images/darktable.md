@@ -8,6 +8,7 @@ license: GPL-3.0
 website: https://www.darktable.org
 github: https://github.com/darktable-org/darktable
 replaces: ["Adobe Lightroom", "Capture One"]
+foss_alternatives: ["RawTherapee"]
 ---
 
 {{< tool-info >}}
