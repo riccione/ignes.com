@@ -8,7 +8,7 @@ license: AGPL-3.0
 website: https://www.onlyoffice.com/
 github: https://github.com/ONLYOFFICE/DocumentServer
 replaces: ["Microsoft Office", "Microsoft 365", "Google Workspace", "Zoho Workplace", "WPS Office", "Adobe Acrobat"]
-foss_alternatives: ["LibreOffice", "Apache OpenOffice", "Euro-Office"]
+foss_alternatives: ["LibreOffice", "Apache OpenOffice", "Euro-Office", "Univer"]
 ---
 
 {{< tool-info >}}

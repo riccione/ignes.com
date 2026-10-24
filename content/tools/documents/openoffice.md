@@ -8,7 +8,7 @@ license: Apache-2.0
 website: https://www.openoffice.org/
 github: https://github.com/apache/openoffice
 replaces: ["Microsoft Office", "Google Workspace"]
-foss_alternatives: ["LibreOffice", "Euro-Office", "ONLYOFFICE"]
+foss_alternatives: ["LibreOffice", "Euro-Office", "ONLYOFFICE", "Univer"]
 ---
 
 {{< tool-info >}}

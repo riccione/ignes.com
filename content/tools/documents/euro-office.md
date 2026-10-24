@@ -8,7 +8,7 @@ license: AGPL-3.0
 website: https://euro-office.github.io/documentation/
 github: https://github.com/Euro-Office/DocumentServer
 replaces: ["Microsoft Office", "Google Workspace"]
-foss_alternatives: ["LibreOffice", "Apache OpenOffice", "ONLYOFFICE"]
+foss_alternatives: ["LibreOffice", "Apache OpenOffice", "ONLYOFFICE", "Univer"]
 ---
 
 {{< tool-info >}}

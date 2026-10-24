@@ -8,7 +8,7 @@ license: Apache-2.0
 website: https://univer.ai/
 github: https://github.com/dream-num/univer
 replaces: ["Microsoft Office", "Google Sheets", "Google Docs", "Google Slides", "Airtable", "Notion", "Miro"]
-foss_alternatives: ["LibreOffice"]
+foss_alternatives: ["LibreOffice", "Apache OpenOffice", "Euro-Office", "ONLYOFFICE"]
 ---
 
 {{< tool-info >}}
