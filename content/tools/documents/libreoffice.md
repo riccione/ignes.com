@@ -9,6 +9,7 @@ license: MPL-2.0
 website: https://www.libreoffice.org/
 github: https://github.com/LibreOffice/core
 replaces: ["Microsoft Office", "Google Workspace"]
+foss_alternatives: ["Apache OpenOffice", "Euro-Office", "ONLYOFFICE"]
 ---
 
 
