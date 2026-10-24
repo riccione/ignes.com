@@ -8,7 +8,7 @@ license: MIT OR Apache-2.0
 website: https://getartcraft.com/apps/photocraft
 github: https://github.com/storytold/photocraft
 replaces: ["Adobe Photoshop"]
-foss_alternatives: ["PhotoSuite", "GIMP"]
+foss_alternatives: ["PhotoSplice", "GIMP"]
 ---
 
 {{< tool-info >}}
