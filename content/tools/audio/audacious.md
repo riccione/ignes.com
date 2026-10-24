@@ -8,7 +8,7 @@ license: BSD-2-Clause
 website: https://audacious-media-player.org
 github: https://github.com/audacious-media-player/audacious
 replaces: ["JRiver Media Center"]
-foss_alternatives: ["VLC"]
+foss_alternatives: ["Elisa", "Amarok", "Rhythmbox", "Tauon", "fooyin", "Quod Libet", "DeaDBeeF", "Nagi", "Kima Hub", "Euphonica", "Clementine", "Fossify Music Player", "VLC"]
 ---
 
 {{< tool-info >}}
