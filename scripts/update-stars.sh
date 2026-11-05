@@ -25,7 +25,7 @@ first=1
 
 while IFS= read -r repo; do
   [[ -z "$repo" ]] && continue
-  if ! json="$(curl -fsSL \
+  if ! json="$(curl -fsSL --max-time 20 \
       -H "Authorization: Bearer ${GITHUB_TOKEN}" \
       -H "Accept: application/vnd.github+json" \
       "https://api.github.com/repos/${repo}")"; then
@@ -33,6 +33,7 @@ while IFS= read -r repo; do
     continue
   fi
   count="$(printf '%s' "$json" | python3 -c 'import json,sys; print(json.load(sys.stdin).get("stargazers_count", 0))')"
+  echo "  ${repo}: ${count}" >&2
   if [[ $first -eq 0 ]]; then
     printf ',\n' >> "$tmp"
   fi
