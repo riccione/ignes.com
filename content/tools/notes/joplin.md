@@ -9,7 +9,7 @@ license: AGPL-3.0
 website: https://joplinapp.org/
 github: https://github.com/laurent22/joplin
 replaces: ["Evernote", "OneNote"]
-foss_alternatives: ["Obsidian"]
+foss_alternatives: ["Obsidian", "Zettlr"]
 ---
 
 

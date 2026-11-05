@@ -9,7 +9,7 @@ license: Proprietary (free)
 website: https://obsidian.md/
 github: https://github.com/obsidianmd
 replaces: ["Notion", "Roam Research"]
-foss_alternatives: ["Joplin"]
+foss_alternatives: ["Joplin", "Zettlr"]
 ---
 
 
