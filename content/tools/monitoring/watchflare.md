@@ -24,3 +24,7 @@ foss_alternatives: ["Beszel", "Glances", "Netdata", "Dashdot", "Homepage"]
 ## Project Status
 
 Watchflare is early-stage software: a pre-1.0 project with a very small community and a single maintainer, so treat it as promising but unproven.
+
+## Personal Note
+
+I spent about 20 minutes trying to get this working on my own, but had no success and ultimately gave up. The project appears to be largely AI-generated, so I'd recommend approaching it with caution.
