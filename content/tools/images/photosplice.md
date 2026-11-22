@@ -8,7 +8,7 @@ license: MIT OR Apache-2.0
 website: https://photosplice.com
 github: https://github.com/eolix/photosplice
 replaces: ["Adobe Photoshop"]
-foss_alternatives: ["PhotoCraft", "GIMP"]
+foss_alternatives: ["PhotoCraft", "GIMP", "Patchy Image Editor"]
 aliases: ["/tools/images/photosuite/"]
 ---
 

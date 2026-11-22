@@ -8,7 +8,7 @@ license: GPL-3.0
 website: https://krita.org/
 github: https://github.com/KDE/krita
 replaces: ["Adobe Photoshop", "Clip Studio Paint", "Corel Painter"]
-foss_alternatives: ["GIMP"]
+foss_alternatives: ["GIMP", "Patchy Image Editor"]
 ---
 
 {{< tool-info >}}
