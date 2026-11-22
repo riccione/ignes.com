@@ -9,6 +9,7 @@ license: GPL-3.0
 website: https://www.gimp.org/
 github: https://github.com/GNOME/gimp
 replaces: ["Adobe Photoshop"]
+foss_alternatives: ["Patchy Image Editor"]
 ---
 
 

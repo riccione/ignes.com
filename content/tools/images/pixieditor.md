@@ -8,6 +8,7 @@ license: LGPL-3.0
 website: https://pixieditor.net
 github: https://github.com/PixiEditor/PixiEditor
 replaces: ["Aseprite", "Clip Studio Paint"]
+foss_alternatives: ["Patchy Image Editor"]
 ---
 
 {{< tool-info >}}
