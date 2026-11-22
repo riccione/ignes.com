@@ -98,17 +98,27 @@ menu:
       parent: categories
       weight: 14
 
-    - name: Tags
-      pageRef: /tags
+    - name: Search Tools
+      pageRef: /tools/search
+      parent: categories
       weight: 15
 
-    - name: Search
+    - name: Game Development
+      pageRef: /tools/game-dev
+      parent: categories
       weight: 16
+
+    - name: Tags
+      pageRef: /tags
+      weight: 17
+
+    - name: Search
+      weight: 18
       params:
         type: search
 
     - name: GitHub
-      weight: 17
+      weight: 19
       url: "https://github.com/riccione/ignes.com"
       params:
         icon: github
